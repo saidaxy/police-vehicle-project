@@ -26,17 +26,19 @@ public class User {
     private Date birthdayDate;
     private String phone;
     private String address;
-
-    @OneToOne(mappedBy = "applicant")
-    private Incident incident;
-
-    @OneToOne(mappedBy = "policeWorker")
-    private Incident currentIncident;
+//
+//    @OneToOne(mappedBy = "applicant")
+//    private Incident incident;
+//
+//    @OneToOne(mappedBy = "policeWorker")
+//    private Incident currentIncident;
 
     @Enumerated(EnumType.STRING)
     private UserRole userRole;
+    @Column(name = "vehicle_id")
+    private Integer vehicleId;
 
-    @ManyToOne
-    @JoinColumn(name="vehicle_id", referencedColumnName="id")
-    private Vehicle vehicle;
+//    @ManyToOne
+//    @JoinColumn(name="vehicle_id", referencedColumnName="id")
+//    private Vehicle vehicle;
 }

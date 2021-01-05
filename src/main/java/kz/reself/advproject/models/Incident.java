@@ -23,18 +23,22 @@ public class Incident {
     @Enumerated(EnumType.STRING)
     private IncidentStatus incidentStatus;
 
-    @ElementCollection(targetClass = IncidentType.class)
-    @Enumerated(EnumType.STRING)
-    private Set<IncidentType> incidentType;
+//    @ElementCollection(targetClass = IncidentType.class)
+//    @Enumerated(EnumType.STRING)
+//    private Set<IncidentType> incidentType;
 
     private String address;
-    private int rank;
+    private Integer rank;
+    @Column(name = "user_id")
+    private Integer userId;
+    @Column(name = "police_user_id")
+    private Integer policeUserId;
 
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "user_id", referencedColumnName = "id")
-    private User applicant;
+//    @OneToOne(cascade = CascadeType.ALL)
+//    @JoinColumn(name = "user_id", referencedColumnName = "id")
+//    private User applicant;
 
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "police_user_id", referencedColumnName = "id")
-    private User policeWorker;
+//    @OneToOne(cascade = CascadeType.ALL)
+//    @JoinColumn(name = "police_user_id", referencedColumnName = "id")
+//    private User policeWorker;
 }

@@ -23,6 +23,4 @@ public class Vehicle {
     private String number;
     private Date year;
     private String location;
-    @OneToMany(mappedBy="vehicle")
-    private Set<User> policeWorkers;
 }

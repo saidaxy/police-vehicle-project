@@ -18,7 +18,7 @@ public class UserController {
         return userService.findAllUsers();
     }
 
-    @GetMapping("/id={id}")
+    @GetMapping("/user/{id}")
     public User findAuthorByName(@PathVariable Long id){
         return userService.findUserById(id);
     }
@@ -30,15 +30,15 @@ public class UserController {
         return "Error";
     }
 
-    @PostMapping("/deleteUser={id}")
+    @PostMapping("/deleteUser/{id}")
     public void deleteUser(Long id) {
         userService.deleteUser(id);
     }
 
-    @PostMapping("/loginUser")
+    @GetMapping("/loginUser")
     public String login(@RequestParam String login, @RequestParam String password){
         if(userService.login(login, password) != null) {
-            return "log in";
+            return String.valueOf(userService.login(login, password).getId());
         }
         return "Error";
     }
