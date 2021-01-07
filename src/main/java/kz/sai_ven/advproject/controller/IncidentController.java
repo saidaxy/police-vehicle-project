@@ -1,11 +1,10 @@
-package kz.reself.advproject.controller;
+package kz.sai_ven.advproject.controller;
 
-import kz.reself.advproject.models.Incident;
-import kz.reself.advproject.models.IncidentDTO;
-import kz.reself.advproject.models.IncidentStatus;
-import kz.reself.advproject.models.IncidentType;
-import kz.reself.advproject.service.interfaces.IncidentService;
-import lombok.extern.java.Log;
+import kz.sai_ven.advproject.models.Incident;
+import kz.sai_ven.advproject.models.IncidentDTO;
+import kz.sai_ven.advproject.models.IncidentStatus;
+import kz.sai_ven.advproject.models.IncidentType;
+import kz.sai_ven.advproject.service.interfaces.IncidentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

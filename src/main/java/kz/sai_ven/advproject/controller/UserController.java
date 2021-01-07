@@ -1,7 +1,7 @@
-package kz.reself.advproject.controller;
+package kz.sai_ven.advproject.controller;
 
-import kz.reself.advproject.models.User;
-import kz.reself.advproject.service.interfaces.UserService;
+import kz.sai_ven.advproject.models.User;
+import kz.sai_ven.advproject.service.interfaces.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

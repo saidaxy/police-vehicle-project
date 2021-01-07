@@ -1,8 +1,8 @@
-package kz.reself.advproject.service;
+package kz.sai_ven.advproject.service;
 
-import kz.reself.advproject.models.User;
-import kz.reself.advproject.repo.UserRepository;
-import kz.reself.advproject.service.interfaces.UserService;
+import kz.sai_ven.advproject.models.User;
+import kz.sai_ven.advproject.repo.UserRepository;
+import kz.sai_ven.advproject.service.interfaces.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,10 +1,7 @@
-package kz.reself.advproject.controller;
+package kz.sai_ven.advproject.controller;
 
-import kz.reself.advproject.models.Incident;
-import kz.reself.advproject.models.IncidentType;
-import kz.reself.advproject.models.Vehicle;
-import kz.reself.advproject.service.interfaces.IncidentService;
-import kz.reself.advproject.service.interfaces.VehicleService;
+import kz.sai_ven.advproject.models.Vehicle;
+import kz.sai_ven.advproject.service.interfaces.VehicleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

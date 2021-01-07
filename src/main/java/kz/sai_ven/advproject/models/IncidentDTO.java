@@ -1,4 +1,4 @@
-package kz.reself.advproject.models;
+package kz.sai_ven.advproject.models;
 
 import lombok.Getter;
 import lombok.Setter;

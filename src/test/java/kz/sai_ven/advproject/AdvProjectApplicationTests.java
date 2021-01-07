@@ -1,4 +1,4 @@
-package kz.reself.advproject;
+package kz.sai_ven.advproject;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

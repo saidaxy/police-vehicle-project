@@ -1,4 +1,4 @@
-package kz.reself.advproject;
+package kz.sai_ven.advproject;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

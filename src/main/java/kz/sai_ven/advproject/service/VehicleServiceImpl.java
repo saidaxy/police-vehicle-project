@@ -1,8 +1,8 @@
-package kz.reself.advproject.service;
+package kz.sai_ven.advproject.service;
 
-import kz.reself.advproject.models.Vehicle;
-import kz.reself.advproject.repo.VehicleRepository;
-import kz.reself.advproject.service.interfaces.VehicleService;
+import kz.sai_ven.advproject.models.Vehicle;
+import kz.sai_ven.advproject.repo.VehicleRepository;
+import kz.sai_ven.advproject.service.interfaces.VehicleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

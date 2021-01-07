@@ -1,4 +1,4 @@
-package kz.reself.advproject.models;
+package kz.sai_ven.advproject.models;
 
 public enum IncidentType {
     FIRE,

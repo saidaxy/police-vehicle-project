@@ -1,9 +1,10 @@
-package kz.reself.advproject.service;
+package kz.sai_ven.advproject.service;
 
 import kz.reself.advproject.models.*;
-import kz.reself.advproject.repo.IncidentRepository;
-import kz.reself.advproject.repo.UserRepository;
-import kz.reself.advproject.service.interfaces.IncidentService;
+import kz.sai_ven.advproject.repo.IncidentRepository;
+import kz.sai_ven.advproject.repo.UserRepository;
+import kz.sai_ven.advproject.service.interfaces.IncidentService;
+import kz.sai_ven.advproject.models.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

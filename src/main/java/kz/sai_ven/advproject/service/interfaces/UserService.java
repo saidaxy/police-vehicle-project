@@ -1,6 +1,6 @@
-package kz.reself.advproject.service.interfaces;
+package kz.sai_ven.advproject.service.interfaces;
 
-import kz.reself.advproject.models.User;
+import kz.sai_ven.advproject.models.User;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,6 +1,6 @@
-package kz.reself.advproject.repo;
+package kz.sai_ven.advproject.repo;
 
-import kz.reself.advproject.models.Vehicle;
+import kz.sai_ven.advproject.models.Vehicle;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

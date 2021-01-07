@@ -1,7 +1,7 @@
-package kz.reself.advproject.service.interfaces;
+package kz.sai_ven.advproject.service.interfaces;
 
-import kz.reself.advproject.models.Incident;
-import kz.reself.advproject.models.IncidentDTO;
+import kz.sai_ven.advproject.models.Incident;
+import kz.sai_ven.advproject.models.IncidentDTO;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
