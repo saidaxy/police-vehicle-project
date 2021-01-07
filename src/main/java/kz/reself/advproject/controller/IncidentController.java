@@ -2,6 +2,7 @@ package kz.reself.advproject.controller;
 
 import kz.reself.advproject.models.Incident;
 import kz.reself.advproject.models.IncidentDTO;
+import kz.reself.advproject.models.IncidentStatus;
 import kz.reself.advproject.models.IncidentType;
 import kz.reself.advproject.service.interfaces.IncidentService;
 import lombok.extern.java.Log;
@@ -53,6 +54,7 @@ public class IncidentController {
 
     @PostMapping("/createIncident")
     public String createIncident(@RequestBody Incident incident) {
+        incident.setIncidentStatus(IncidentStatus.NEW);
         if (incidentService.createIncident(incident) != null) {
             return "Created Incident";
         }
